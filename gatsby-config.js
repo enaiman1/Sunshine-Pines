@@ -5,6 +5,9 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: 'Sunshine Pines',
+    author: 'Eric Naiman'
+  }, 
   plugins: [],
 }
