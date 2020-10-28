@@ -1,33 +1,38 @@
 .header {
-    padding: 1rem 0 3rem;
-
+  padding: 2rem 1rem 3rem;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(181, 247, 167, 0.5)), url("../assets/sunshineHeader.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
 }
 
 .title {
-    color: #000000;
-    font-size: 3rem;
-    text-decoration: none;
+  color: #275c07;
+  font-size: 3rem;
+  text-decoration: none;
+  margin-top: 2rem;
 }
 
-.nav-list{
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin:  4rem 0;
 }
 
 .nav-item {
-    color: #999999;
-    font-size: .9rem;
-    margin-right: 1.3rem;
-    text-decoration: none;
+  color: #747474;
+  font-size: 1.5rem;
+  margin-right: 1.3rem;
+  text-decoration: none;
 }
 
-.nav-item:hover{
-    color: #666666;
+.nav-item:hover {
+  color: #666666;
+  border-bottom: 5px solid #275c07;
+  font-size: 1.75rem;
 }
 
 .active-nav-item {
-    color: #333333;
+  color: #333333;
 }
-
