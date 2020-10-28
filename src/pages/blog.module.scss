@@ -1,0 +1,32 @@
+.posts {
+    list-style-type: none;
+    margin: 0;
+}
+
+.post {
+    margin: 1rem 0;
+
+    a {
+        background: hsla(98, 87%, 22%, 0.447);
+        max-width: 40%;
+        color: #000000;
+        display: block;
+        padding: 1rem;
+        text-decoration: none;
+    }
+
+    a:hover {
+        background: hsla(97, 86%, 19%, 0.6);
+    }
+
+    h2 {
+        margin-bottom: 0;
+
+    }
+
+    p {
+        color: #777777;
+        font-size: .8rem;
+        font-style: italic;
+    }
+}
