@@ -18,13 +18,16 @@ module.exports = {
       }
     }, 
 
-    //  {
-    //    resolve: 'gatsby-source-filesystem',
-    //    options: {
-    //      name: 'src',
-    //      path: `${__dirname}/src/`
-    //    }
-    //  },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `roboto mono`,
+          `Montserrat\:400i` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    },
      {
       resolve: `gatsby-source-filesystem`,
       options: {

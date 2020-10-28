@@ -46,7 +46,7 @@ const ContactPage = () => {
               <input type="text" name="zip" />
             </p>
 
-            <label for="inquire">For whom are you inquiring?</label>
+    <label for="inquire">For whom are you inquiring?</label>
     <select name="inquire">
       <option value="self">Self</option>
       <option value="parent">Parent</option>

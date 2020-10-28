@@ -143,7 +143,7 @@ const IndexPage = props => {
                   fluid
                 />
                 <Card.Body>
-                  <Card.Title>Short-Term Stay</Card.Title>
+                  <Card.Title>Residential Stay</Card.Title>
                   <Card.Text>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -171,7 +171,7 @@ const IndexPage = props => {
                   fluid
                 />
                 <Card.Body>
-                  <Card.Title>Short-Term Stay</Card.Title>
+                  <Card.Title>Specialty Programs</Card.Title>
                   <Card.Text>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -199,11 +199,11 @@ const IndexPage = props => {
         <Row className="text-center">
           <Organization image={Facility1} alt="Cafe">
             {" "}
-            Modern Dinning{" "}
+            Modern Dining{" "}
           </Organization>
           <Organization image={Facility2} alt="bedroom">
             {" "}
-            Comfortable Quaters{" "}
+            Spacious Quaters{" "}
           </Organization>
           <Organization image={Facility3} alt="couple playing putt putt">
             {" "}
@@ -211,11 +211,11 @@ const IndexPage = props => {
           </Organization>
           <Organization image={Facility4} alt="Living area">
             {" "}
-            Perfect Gathering{" "}
+            Comfortable living{" "}
           </Organization>
           <Organization image={Facility5} alt="Library">
             {" "}
-            Library{" "}
+            Exquisite Library{" "}
           </Organization>
           <Organization
             image={Facility6}
@@ -226,11 +226,11 @@ const IndexPage = props => {
           </Organization>
           <Organization image={Facility7} alt="pool">
             {" "}
-            Luxury Pool{" "}
+            Serenity Pool{" "}
           </Organization>
           <Organization image={Facility8} alt="friends playing games">
             {" "}
-            Group Fun{" "}
+            Perfect Gathering{" "}
           </Organization>
         </Row>
       </section>
