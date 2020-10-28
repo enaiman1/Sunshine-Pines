@@ -29,7 +29,11 @@ const BlogPage = () => {
   return (
     <Layout>
       <Head title="Blog" />
-      <h1>Blog</h1>
+      <div className={blogStyles.heading}>
+        <h2 className="text-center">Blog</h2>
+        <h3 className="text-center">Be in the Know<span> with information you can trust</span> </h3>
+      </div>
+      
       <ol className={blogStyles.posts}>
         {data.allContentfulBlogPost.edges.map(edge => {
           return (

@@ -3,6 +3,22 @@
     margin: 0;
 }
 
+.heading {
+    h2 {
+        color: #275c07;
+        font-size: 3rem;
+    }
+    
+    h3 {
+        color: rgb(250, 202, 10);
+        
+        span {
+            color: #275c07;
+            font-style: italic;
+        }
+    }
+}
+
 .post {
     margin: 1rem 0;
 
