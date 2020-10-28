@@ -1,12 +1,22 @@
 .contactContainer {
     // width: 70%;
     padding: 1rem;
+    
 }
 
-.wrapper {
-    display: grid;
-    grid-template-columns: max-content min-content;
+.formBody {
+    width: 60%;
+   background-color: hsla(98, 87%, 22%, 0.447);
+margin: 1rem auto;
+padding: 1rem;
+
+@media only screen and (max-width: 600px) {
+    width: 100%;
+    // margin: 0;
+     }
 }
+
+
 
 input:focus,
 textarea:focus {

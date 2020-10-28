@@ -9,8 +9,8 @@ const ContactPage = () => {
       <Head title="Contact" />
       <main className={contactStyles.contactContainer}>
         <div className={contactStyles.wrapper}>
-            <div >
-          <h3>Let's get in touch</h3>
+            <div className={contactStyles.formBody}>
+          <h3>Request Information</h3>
           <form method="POST">
             <p>
               <label htmlFor="first">First Name</label>
