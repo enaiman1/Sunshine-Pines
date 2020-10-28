@@ -1,0 +1,28 @@
+.contactContainer {
+    // width: 70%;
+    padding: 1rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: max-content min-content;
+}
+
+input:focus,
+textarea:focus {
+  outline: 3px solid #275c07;
+}
+
+input,
+textarea,
+select,
+button {
+  width: 100%;
+  justify-content: center;
+  
+}
+
+.btn {
+  text-align: center;
+}
+
