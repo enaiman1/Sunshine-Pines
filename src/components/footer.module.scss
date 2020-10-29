@@ -1,4 +1,24 @@
 .footer {
     margin-top: 3rem;
+    
     background-color: hsla(98, 87%, 22%, 0.447);
+
+    p {
+        color: #f4f4f4;
+        margin-left: 3rem;
+        font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+    }
+
 }
+
+.link {
+    color: #f4f4f4; 
+    text-decoration: none;
+    
+}
+
+.link:hover {
+    color: #333;
+    font-size: 1.25rem;
+  }

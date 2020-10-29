@@ -10,6 +10,7 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-sharp',
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-fontawesome-css`,
     {
       resolve: 'gatsby-source-contentful',
       options: {

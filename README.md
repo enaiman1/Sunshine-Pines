@@ -4,7 +4,7 @@ This is a Gatsby application for an assisted living facility
 Built following this [Mern Tutorial](https://blog.bitsrc.io/build-a-login-auth-app-with-mern-stack-part-1-c405048e3669 "Mern tutorial")
 
 ## Demo
-check out a demo coming soon.
+check out a the site [Here](https://sunshine-pines.netlify.app "Published site").
 
 ## Technologies Used
  | [Gatsby](https://www.gatsbyjs.com/ "Gatsby Js")  | [React](https://reactjs.org/ "React") | [Node](nodejs.org "Node") | [React Bootstrap](https://react-bootstrap.github.io/ "React Bootstrap")  | [Contentful](https://www.contentful.com/ "Contentful") 
